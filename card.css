@@ -1,0 +1,203 @@
+/* latest news */
+.main-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.card{
+    width: 400px;
+    height: 650px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card > img,p{
+    margin-top: 10px;
+}
+.card > img {
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.card > button {
+   margin: 20px 0px;
+   padding: 10px 20px;
+   font-size: 1.5rem;
+   font-weight: bold;
+   background-color: white;
+   border-radius: 50px;
+   cursor: pointer;
+   transition: all .5s ease 0s;
+}
+
+button > a:hover {
+    color: white;
+}
+.card > .title {
+    text-align: center;
+    color: orange;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+
+.card1 {
+    border: 2px solid rgb(2, 221, 221);
+    box-shadow: 0px 0px 10px rgb(19, 222, 222);
+}
+.card1 > button {
+    border: 3px solid rgb(3, 192, 192);
+    color: rgb(3, 193, 193);
+}
+.card1 > button:hover{
+    background-color: rgb(5, 183, 183);
+    color: white;
+}
+
+
+/* card2 */
+.card2 {
+    box-shadow: 0px 0px 10px gold;
+    box-shadow: 0px 0px 10px gold;
+}
+.card2 > button {
+    border: 3px solid gold;
+    color: gold;
+}
+.card2 > button:hover{
+    background-color: gold;
+    color: white;
+}
+.card3 {
+    box-shadow: 0px 0px 10px green;
+    box-shadow: 0px 0px 10px green;
+}
+.card3 > button {
+    border: 3px solid green;
+    color: green;
+}
+.card3 > button:hover{
+    background-color: green;
+    color: white;
+}
+
+
+/* about president */
+.card-president{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    margin: auto;
+}
+.card-president > img {
+    width: 40%;
+    border-radius: 0px 15px 15px 0px;
+}
+.card-president > .decs-president {
+    width: 50%;
+    height: auto;
+    padding: 30px;
+    background-color: rgb(5, 5, 82);
+    border-radius: 15px 0px 0px 15px;
+}
+.decs-president > .title {
+    text-align: center;
+    color: orange;
+    text-shadow: 2px 2px 3px white;
+    font-size: 2.5rem;
+}
+.text{
+    font-family: 'Khmer MEF2'; 
+}
+.decs-president > .detail {
+    color: gold;
+    text-shadow: 1px 1px 2px gold;
+    font-size: 1.8rem;
+    line-height: 4rem;
+    word-spacing: 10px;
+}
+.text-detail {
+    font-family: 'khmer os battambang';
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+/* card university */
+
+.desc{
+    width: 80%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'khmer os battambang';
+}
+.card-u{
+    width: 650px;
+    margin: 1rem 0;
+    padding: 20px;
+    border-radius: 20px ;
+    
+    box-shadow: 0 0 2px gold;
+}
+.card-u:nth-child(odd){
+    background-color: rgb(193, 193, 193);
+}
+.card-u:nth-child(even){
+    background-color: rgb(255, 196, 196);
+}
+
+.card-body > li{
+    border: 1px solid gray;
+    padding: 5px 10px;
+    margin: 15px 0;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 400;
+    font-family: 'khmer os battambang';
+    letter-spacing: 3px;
+}
+.card-body > li:nth-child(odd) {
+    background-color: lightsalmon;
+}
+.card-body > li:nth-child(even) {
+    background-color: lightseagreen;
+}
+
+.card-title{
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Khmer MEF2'; 
+    letter-spacing: 4px;
+}
+/* main events  */
+.main-events {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem auto;
+}
+.card-event{
+    justify-content: space-evenly;
+}
+.text-event {
+    font-size: 1.3rem;
+    font-family: 'Khmer OS Siemreap';
+    padding: 10px;
+    margin: 0px;
+}
+.size {
+    font-size: 1.1rem;
+}
+
+

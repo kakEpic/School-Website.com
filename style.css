@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+body {
+    background-color: rgba(128, 128, 128, 0.1);
+}
+/* header */
+header {
+    width: 100%;
+    background-color:#F2A81D;
+    position: sticky;
+    top: -173px;
+}
+.header-banner {
+    display: flex;
+    background-color: cyan;
+    justify-content: center;
+    align-items: center;
+}
+.header-banner > img, p {
+    margin-left: 50px;
+}
+.header-banner .English{
+    font-family: "times new roman";
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-left: 100px ;
+}
+.header-banner > img{
+    height: 150px;
+    margin: 12px 0;
+}
+.title-banner > p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(53, 53, 239);
+    text-shadow: 2px 2px 2px white;
+    font-family: 'Khmer MEF2';
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    line-height: 2.5rem;
+    
+}
+.header-banner .ume{
+    font-size: 25px;
+    letter-spacing: normal;
+    word-spacing: 20px;
+    margin-left: 60px;
+}
+/* navbar  */
+
+nav{
+    display: flex;
+    width: 100%;
+    background-color: darkblue;
+    margin: 0 0 50px 0;
+    padding: 10 5px;
+}
+nav > img, ul {
+    margin-left: 20px;
+}
+nav > ul {
+    display: flex;
+}
+nav > ul > li {
+    list-style: none;
+    margin-left: 1.5rem;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    padding: 10px 12px;
+    line-height: 3.5rem;
+    transition: all .2s ease-out;
+}
+nav > ul > li > a:hover{
+    font-size: 1.7rem;
+    background-color: gold;
+    border-radius: 20px;
+    color: white;
+}
+.deco{
+    border-bottom: 3px solid gold;
+}
+
+/* text main */
+
+h2{
+    margin: 30px 150px;
+    font-size: 3rem;
+    font-family: 'khmer muol';
+}
+.note{
+    color: dodgerblue;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.text-title{
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: 'khmer os battambang';
+}
+.text-title > a{
+    color: blue;
+}
+.text-primary{
+    font-size: 1.5rem;
+    font-family: 'Khmer os battambang';
+}
+span.text-primary{
+    color: red;
+    font-weight: 500;
+}
+.align{
+    text-align: center;
+}
+.school {
+    width: 70%;
+    margin: auto;
+}
+.school > img {
+    width: 100%;
+}
+.spacing{
+    margin-left: 0 5rem;
+}
+.font{
+    font-family: 'khmer moul';
+    color: red;
+}
+.float-left{
+    float: left;
+    margin-right: 3rem;
+}
+.float-right{
+    float: right;
+}
+
+/* footer */
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.footer-col{
+    width: 500px;
+    height: 350px;
+    /* background-color: blue; */
+}
+.footer-col > img {
+    height: 70px;
+}
+.contact{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1.2rem 0rem;
+}
+
+.social{
+    display: flex;
+    margin-top: 1.5rem;
+}
+.social > i{
+    font-size: 2rem;
+    margin-left: 3rem;
+    filter: drop-shadow(0px 0px 5px cyan);
+}
+.social > i:hover{
+    color: midnightblue;
+    filter: none;
+}
+
+.col2{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+.col2 > h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+.address{
+    margin: 10px;
+    display: flex;
+}
+.address > i {
+    border: 1px solid white;
+    padding: 10px;
+}
+.address > span {
+    margin-left: 10px;
+}
+
+h3{
+    font-size: 2rem;
+    margin: 2rem 3rem;
+}
+table{
+    width: 90%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+.copy{
+    text-align: center;
+}
+
+

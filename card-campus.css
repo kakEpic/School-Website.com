@@ -1,0 +1,58 @@
+/* campus */
+.campus{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem auto;
+}
+.card-campus{
+    width: 430px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightsteelblue;
+
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid gold;
+}
+.card-campus > img {
+    width: 100%;
+}
+.title-campus {
+    color: gold;
+    text-shadow: 0 0 3px black;
+    font-size: 1.2rem;
+}
+.title-red{
+    color: rgb(255, 0, 0);
+    letter-spacing: 3px;
+    text-shadow: 0 0 3px white;
+
+}
+/* library */
+.main-library{
+    width: 90%;
+    clear: both;
+    margin:auto;
+}
+.main-library > img {
+   width: 500px;
+   height: 500px;
+}
+.text-library{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    word-spacing: .2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.content-library{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 2400px;
+}

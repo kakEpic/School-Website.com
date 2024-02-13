@@ -1,0 +1,36 @@
+.main-history {
+    width: 90%;
+    background-color: lightblue;
+    border: 3px solid gold;
+    border-radius: 10px;
+    margin: 2rem auto;
+}
+.flex {
+    display: flex;
+}
+.main-history > img.left {
+    width: 40%;
+}
+.main-history > img.right {
+    width: 60%;
+}
+.main-history > .desc {
+    padding: 30px;
+}
+.main-com{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.title-com{
+    width: 100%;
+    text-align: center;
+}
+.main-com > img {
+    width: 33%;
+}
+.structure{
+    width: 100%;
+}
+
